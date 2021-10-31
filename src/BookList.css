@@ -1,0 +1,27 @@
+.kartica {
+    justify-content: center;
+    font: small;
+    width : 30%;
+    height : 25%;
+    border : 2px black solid;
+  }
+
+  .kartice {
+    display : flex;
+    position: relative;
+    flex-wrap : wrap;
+    border : 2px black solid;
+    gap : 10px;
+  }
+
+  .ocenaDugme {
+    display : flex;
+    justify-content : space-evenly;
+    position: absolute;
+  }
+
+  .details{
+    position: absolute;
+    bottom: 0.5cm;
+    left: 5cm;
+  }
